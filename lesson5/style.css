@@ -1,0 +1,53 @@
+h1, h3 {
+    font-size: 30px;
+}
+
+
+
+body {
+    font-size: 32px;
+}
+
+.container {
+    width: 20em;
+    align-content: center;
+}
+
+#board {
+    width: 11em;
+    height: 11em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 1.1em;
+    height: 1.1em;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.edge {
+    background-color:#ccc;
+    border: none;
+}
+
+.black {
+    background-color: gray;
+}
+
+.white {
+    background-color: wheat;
+}
+
+.rrr {
+    background-color: red;
+}
+
+.figure-color-black {
+    color: black;
+}
+
+.figure-color-white {
+    color: white;
+}
